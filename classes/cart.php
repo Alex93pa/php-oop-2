@@ -1,7 +1,7 @@
 <?php 
 
 class Cart {
-    public $user;
+    protected $user;
     // public $product;
     // public $payment;
 

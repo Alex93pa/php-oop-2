@@ -1,9 +1,9 @@
 <?php 
 
 class Product {
-    public $name;
-    public $qty;
-    public $price;
+    protected $name;
+    protected $qty;
+    protected $price;
 
     function __construct($name, $qty, $price){
         $this->$name = $name;

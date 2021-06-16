@@ -7,7 +7,7 @@ require_once "./classes/user.php";
 require_once "./classes/users/primeUser.php";
 require_once "./classes/cart.php";
 
-$user = new PrimeUser("mario Rossi", "mario.rosssi@gmail.com");
+$user = new PrimeUser("Mario Rossi", "mario.rossi@gmail.com");
 $cart = new Cart($user);
 $creditCard = new CreditCard(888999887766, "05/2025", "555");
 
